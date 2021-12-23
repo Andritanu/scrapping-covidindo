@@ -11,9 +11,9 @@ find_data = after_bs.find_all(id='maincounter-wrap')  #getFromElements
 
 #print(text)
 #print(find_data.text)
-# #menampilkanhtmlsecararapih
+#show elements 
 
-for x in find_data: #  menampilkandatatext
+for x in find_data: #  show data text
     print(x.text)
 
-#  menampilkantextyangadadimaincounter
+#  show text ini data counter
